@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
 
                 if(sendEmail.resolveActivity(getPackageManager())   != null){
                     startActivity(sendEmail);
+                    //alteração
                 }
 
 
